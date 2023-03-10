@@ -33,7 +33,8 @@ async function ContactUs(req, res) {
     // setuping email data with html body
     const mailOptions = {
       from: `${name} <${email}>`, // sender address
-      to: "info@redpositive.in", // receiver address
+      // to: "info@redpositive.in", // receiver address
+      to: "1aasish1@gmail.com", // receiver address
       subject: "Aman's Intern Task", // subject line
       html: `<p style="margin: 0; margin-bottom: 16px;">Hello Redpositive Service,</p>
       <p style="margin: 0; margin-bottom: 16px;">I am Aman Kumar, an undergraduate student at IIT Kharagpur. This is a dummy email body for the Contact Us page of React Native app to submit user's query.</p>
